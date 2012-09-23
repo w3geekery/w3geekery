@@ -1,0 +1,13 @@
+application/classes/ajaxmailer.php
+application/classes/twitter.php
+
+application/config/database.php
+application/config/encrypt.php
+application/config/session.php
+application/config/w3geekery.php
+
+application/logs/*
+
+application/views/common/ga-tracking.php
+
+.htaccess

@@ -1,0 +1,516 @@
+@charset UTF-8;
+
+
+/* != BASE */
+body {
+	color:#343434;
+	font-family:"Droid Sans","Helvetica Neue",Verdana,sans-serif;
+	font-size:75%;
+	background:url(../images/stripes.jpg) repeat fixed 0 0 transparent;
+}
+
+a:link,a:active,a:visited,a:hover {
+	color:#660000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#966;
+	text-decoration:underline;
+}
+
+h1 {
+    color: #5C6E83;
+    font-family: "Droid Serif",Georgia,"Times New Roman",serif;
+    font-size:65px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 9px 10px;
+    text-shadow: 3px 3px 2px #CCCCCC;
+}
+
+h2 {
+	color:#715741;
+	font-family:"Droid Serif",Georgia,"Times New Roman",serif;
+	font-size:2.85em;
+	font-weight:bold;
+	line-height:1;
+	margin:1em 0;
+	text-align:center;
+}
+
+h3 {
+	color:#5C6E83;
+	font-size:2.5em;
+	font-weight:bold;
+	margin:.5em 0;
+}
+
+/* != MAIN BODY */
+
+div#page-body p {
+	font-size:1.55em;
+}
+
+
+/* != HEADER */
+div#top-nav ul li {
+	color:#FFFFFF;
+	display:inline;
+	font-family:"Droid Sans", "Helvetica Neue",Verdana,sans-serif;
+	font-size:15px;
+	font-variant:small-caps;
+	margin-right:15px;
+}
+
+div#page-top {
+	background:url(../images/banner-bg.png) repeat-x scroll 0 0 transparent;
+	height:115px;
+	margin:20px 0 0;
+	padding:6px 0 0;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:2;
+}
+
+div#banner-texture {
+	background:url(../images/banner-texture.png) no-repeat scroll 0 0 transparent;
+	height:98px;
+	padding:10px 0 0;
+}
+
+div#banner-texture div.container {
+	margin:0 auto;
+}
+
+div#page-top a#logo {
+	background:url(../images/w3g-logo.png) no-repeat scroll 0 0 transparent;
+	display:block;
+	float:left;
+	height:76px;
+	margin:0;
+	padding:10px 0 0;
+	width:238px;
+}
+
+div#page-top a#logo span {
+	display:none;
+}
+
+div#top-nav {
+	float:right;
+}
+
+div#top-nav ul {
+	margin:20px 0 0;
+	padding:0;
+}
+
+div#top-nav ul li {
+	color:#FFFFFF;
+	display:inline;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:15px;
+	font-variant:small-caps;
+	margin-right:15px;
+}
+
+div#top-nav ul li.phone {
+	border-left:1px dashed #9999CC;
+	font-size:18px;
+	padding-left:20px;
+	text-shadow:0 0 6px rgba(255,255,255,0.75);
+}
+
+div#top-nav ul li a {
+	color:#fff;
+}
+
+div#top-nav a:link,div#top-nav a:active,div#top-nav a:visited,div#top-nav a:hover {
+	color:#efefef;
+	text-decoration:none;
+	text-shadow:1px 1px 2px #000;
+}
+
+div#top-nav a:hover {
+	color:#fff;
+	text-shadow:0 0 0 #333;
+}
+
+div#logo-tag {
+	border-left:1px dotted #E0E0E0;
+	float:left;
+	margin:24px 0 0 10px;
+	padding:6px 0 4px 10px;
+}
+
+div#logo-tag p {
+	color:#E0E0E0;
+	margin:0;
+	padding:0;
+}
+
+div#logo-tag a {
+    color: #efefef;
+    text-shadow: 1px 1px 3px #efefef;
+}
+
+
+/* != BODY CONTENT */
+
+p.intro {
+	border-bottom:5px dashed #EDEDED;
+	border-top:5px dashed #EDEDED;
+	font-family:"Droid Serif","Times New Roman",serif;
+	font-size:2em!important;
+	height:125px;
+	line-height:1.3em;
+	margin:20px auto 0;
+	padding:30px 0;
+	text-align:justify;
+	width:620px;
+}
+
+p.intro img {
+	float:left;
+	height:120px;
+	margin:0 40px;
+}
+
+
+	
+/* ! CODA SLIDER */
+#slider {
+	margin:0 auto;
+	position:relative;
+	width:920px;
+}
+
+.hide {
+	display:none;
+}
+
+div#slider ul.navigation {
+	background:url(../images/car-sprt.png) no-repeat scroll left top transparent;
+	height:72px;
+	list-style:none outside none;
+	margin:0;
+	padding:0 0 0 77px;
+}
+
+div#slider ul.navigation li {
+	display:inline;
+	margin-right:10px;
+	font-family:"Droid Sans",Arial,sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	text-shadow:0 0 1px #CCCCCC;
+}
+
+div#slider ul.navigation li a {
+	background:none repeat scroll 0 0 transparent;
+	color:#424242;
+	display:block;
+	float:left;
+	margin:2px 10px 0 0;
+	padding:10px 6px;
+	text-decoration:none;
+}
+
+div#slider ul.navigation a.selected {
+	background:none repeat scroll 0 0 rgba(255,255,255,0.55);
+}
+
+div#slider ul.navigation a:hover {
+	color:#f6f6f6;
+}
+
+div#slider ul.navigation a:focus {
+	outline:none;
+}
+
+div.scrollWrap {
+	background:url(../images/car-body.png) repeat-y scroll 7px top transparent;
+}
+
+div.scroll {
+	clear:left;
+	height:auto;
+	margin:0 auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+	padding:0;
+	position:relative;
+	width:820px;
+}
+
+div.slider-bottom {
+	background:url(../images/car-sprt.png) no-repeat scroll left bottom transparent;
+	clear:both;
+	height:53px;
+	position:relative;
+}
+
+.scrollContainer div.panel {
+	height:auto;
+	margin:0;
+	padding:10px;
+	width:800px;
+}
+
+
+	
+/* CONTACT INFO */
+div.contact-info {
+}
+
+div.contact-info address {
+	font-size:1.85em;
+	font-style:normal;
+	margin:0 0 0 30px;
+}
+
+div.contact-info address span {
+	font-weight:bold;
+}
+
+form#email-form {
+	float:left;
+	width:550px;
+}
+
+form#email-form legend {
+    background: none repeat scroll 0 0 transparent;
+    color: #343434;
+    font-size: 1.85em;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0 34px -20px;
+    padding: 0;
+}
+
+form#email-form fieldset {
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	background:none repeat scroll 0 0 #EAEFF2;
+	border:medium none;
+	margin:0 30px;
+	padding:0 20px 20px;
+}
+
+form#email-form label {
+	display:none;
+}
+
+form#email-form input {
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	font-size:130%;
+	margin:0 0 10px;
+	padding:8px 10px;
+	border:none!important;
+}
+
+form#email-form textarea {
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	color:#343434;
+	font-family:"Droid Sans","Helvetica Neue",Verdana,sans-serif;
+	font-size:130%;
+	height:100px;
+	padding:6px;
+	width:436px;
+	border:none;
+}
+
+form#email-form button {
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	background:none repeat scroll 0 0 #FADFA4;
+	border:medium none;
+	cursor:pointer;
+	float:right;
+	padding:10px;
+}
+
+textarea#email-form-feedback {
+	float:right;
+	font-size:150%!important;
+	height:112px!important;
+	margin:0;
+	padding:10px!important;
+	width:176px!important;
+	overflow: hidden;
+}
+
+.feedback {
+	background:none repeat scroll 0 0 transparent;
+}
+
+.watermark {
+	color:#999999!important;
+	font-style:italic!important;
+}
+
+.notice {
+	background:none repeat scroll 0 0 #f9f9c7!important;
+	border-color:#FFD324;
+	color:#514721!important;
+}
+
+div#page-footer {
+	background-color:#F0F8F0;
+	border-top:1em solid gainsboro;
+	height:20px;
+	margin:50px auto;
+	padding:1em 0;
+	width:950px;
+}
+
+div#sitemap {
+	float:left;
+	margin-left:30px;
+}
+
+div#sitemap ul {
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+}
+
+div#sitemap ul li {
+	display:inline;
+	margin:0 20px 0 0;
+}
+
+div#sitemap ul li a {
+}
+
+p.copyright {
+	float:right;
+	margin-right:42px;
+	text-align:right;
+}
+
+
+	
+/* PORTFOLIO */
+body.portfolio div#slider ul.navigation li a {
+	font-size:75%;
+	padding:18px 6px 11px;
+}
+
+div.tstmnl {
+	padding:10px 30px;
+}
+
+div.tstmnl p:before {
+	font-family:"Droid Serif",Georgia,serif;
+	line-height:8px;
+	font-size:4em!important;
+	color:#ccc;
+	vertical-align:bottom;
+	content:open-quote;
+}
+
+div.tstmnl p:after {
+	content:close-quote;
+}
+
+div.tstmnl p {
+	font-size:1.75em!important;
+	margin:0 40px;
+}
+
+div.tstmnl span.author {
+	font-size:1.75em!important;
+	font-style:italic;
+	margin-bottom:2em;
+	margin-right:90px;
+	text-align:right;
+}
+
+div#page-body {
+	-moz-box-shadow:2px 2px 10px #333;
+	-webkit-box-shadow:2px 2px 10px #333;
+	box-shadow:2px 2px 10px #333;
+	background-color:#F0F8F0;
+	margin-top:126px;
+}
+
+div.intro-box {
+	background:none repeat scroll 0 0 #F0F8F0;
+	float:left;
+	margin:0 10px 0 0;
+	padding:10px;
+	width:550px;
+}
+
+
+
+div.intro-box p {
+	font-size:1.4em!important;
+	line-height:1.3em;
+	margin:0 0 10px 30px;
+	padding:10px 0;
+	text-align:justify;
+}
+
+div.latest-twitter {
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	-moz-box-shadow:2px 2px 10px #333;
+	-webkit-box-shadow:2px 2px 10px #333;
+	box-shadow:2px 2px 10px #333;
+	background:none repeat scroll 0 0 #FFFEB5;
+	float:right;
+	height:auto;
+	font-size: 115%;
+	left:40px;
+	margin:50px 0 0;
+	padding:0 16px 10px;
+	position:relative;
+	width:320px;
+}
+
+
+
+div#tweet-list {
+    background: none repeat scroll 0 0 transparent;
+    height: 180px;
+    margin: 8px 0 0;
+}
+
+
+div.twitterSearchContainter {
+    -moz-box-shadow: -1px -2px 5px #999999 inset;
+    -webkit-box-shadow: -1px -2px 5px #999999 inset;
+    box-shadow: -1px -2px 5px #999999 inset;
+    background-color: rgba(0, 0, 0, 0.15)!important;
+}
+
+
+
+
+
+div.content-box h2 {
+    color: #5C6E83;
+    font-family: "Droid Serif",Georgia,"Times New Roman",serif;
+    font-size: 2.85em;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0.5em 0 1em 40px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #AAAAAA;
+}
+
+div#top-nav ul li.phone span.gc-cs-link {
+    text-decoration: none!important;
+    color:inherit!important;
+}
