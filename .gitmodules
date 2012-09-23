@@ -2,14 +2,17 @@
 	path = system
 	url = https://github.com/kohana/core.git
 [submodule "modules/database"]
-    path = modules/database
-      url = git://github.com/kohana/database.git
+	path = modules/database
+	url = git://github.com/kohana/database.git
 [submodule "modules/cache"]
-    path = modules/cache
-      url = https://github.com/kohana/cache.git
+	path = modules/cache
+	url = https://github.com/kohana/cache.git
 [submodule "modules/auth"]
-    path = modules/auth
-      url = https://github.com/kohana/auth.git
+	path = modules/auth
+	url = https://github.com/kohana/auth.git
 [submodule "modules/orm"]
-    path = modules/orm
-      url = https://github.com/synapsestudios/kohana-orm.git
+	path = modules/orm
+	url = https://github.com/synapsestudios/kohana-orm.git
+[submodule "modules/kohana-activerecord"]
+	path = modules/kohana-activerecord
+	url = https://github.com/devi/kohana-activerecord.git
