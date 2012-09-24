@@ -109,14 +109,26 @@ $(function() {
     			titleLink: { textDecoration: 'none', color: 'maroon' },
     			user:  { fontWeight: 'bold' }
 			}
-
         });
-
     }
 
-
-
+    $("#ac_search").on('keyup',function() {
+        var data = { "ac_search": $("#ac_search").val()};
+        $.ajax({
+            url: "/autocomplete",
+            data: data,
+            type: "GET",
+            dataType: "JSON",
+            success: function(r) {
+                if ((!r.errors) && (r.matches.length)) {
+                    if (r.matches !== false) {
+                        $.each(r.matches, function(ix,obj) {
+                            $('.response ol').append("<li>"+obj+"</li>");
+                        });
+                    }
+                }
+            }
+        });
+    });
 });
-
-
 

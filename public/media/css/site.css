@@ -179,7 +179,7 @@ p.intro img {
 }
 
 
-	
+
 /* ! CODA SLIDER */
 #slider {
 	margin:0 auto;
@@ -260,7 +260,7 @@ div.slider-bottom {
 }
 
 
-	
+
 /* CONTACT INFO */
 div.contact-info {
 }
@@ -398,7 +398,7 @@ p.copyright {
 }
 
 
-	
+
 /* PORTFOLIO */
 body.portfolio div#slider ul.navigation li a {
 	font-size:75%;
@@ -513,4 +513,26 @@ div.content-box h2 {
 div#top-nav ul li.phone span.gc-cs-link {
     text-decoration: none!important;
     color:inherit!important;
+}
+
+div.response {
+float: left;
+width: 200px;
+height: auto;
+padding: 10px;
+border: 1px solid #ACACAC;
+background-color: white;
+position: relative;
+top: 6px;
+left: 10px;
+}
+div.response h5 {margin-bottom: 4px;}
+div.response ol li {
+font-size: 11px;
+}
+
+textarea#ac_search {
+    width: 300px;
+    height: 80px;
+    float:left;
 }
