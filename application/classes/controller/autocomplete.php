@@ -7,7 +7,7 @@ class Controller_Autocomplete extends Controller {
         $file = APPPATH.'data/data.csv';
         $ar_data = str_getcsv(file_get_contents($file));
         $match = array_intersect($ar_input, $ar_data);
-        return $match;
+        return array_unique($match);
     }
 
     public function action_index()
