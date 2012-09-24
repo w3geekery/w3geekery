@@ -122,6 +122,7 @@ $(function() {
             success: function(r) {
                 if ((!r.errors) && (r.matches.length)) {
                     if (r.matches !== false) {
+                        $('.response ol').empty();
                         $.each(r.matches, function(ix,obj) {
                             $('.response ol').append("<li>"+obj+"</li>");
                         });
