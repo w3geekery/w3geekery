@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Autocomplete extends Controller {
+class Controller_Inputcheck extends Controller {
 
     public function getMatches($ar_input)
     {
