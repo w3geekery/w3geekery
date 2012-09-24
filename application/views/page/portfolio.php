@@ -31,7 +31,7 @@
                             </ul>
                             <h4>Javascript/jQuery</h4>
                             <ul>
-                                <li><a href="/examples/autocomplete">Ajax Input Check Example</a></li>
+                                <li><a href="/examples/inputcheck">Ajax Input Check Example</a></li>
                                 <li>More coming soon...</li>
                             </ul>
                         </div>

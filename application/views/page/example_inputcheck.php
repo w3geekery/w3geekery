@@ -1,8 +1,7 @@
 
     <div class="intro-box">
         <h1>Ajax Input Check Example</h1>
-
-        <p>Input check example using "Ajax" to query a "remote" json datasource.</p>
+        <p>Input check example using "Ajax" to query a csv datasource.</p>
     </div>
 
     <div class="clearfix"></div>

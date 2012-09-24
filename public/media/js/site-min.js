@@ -115,7 +115,7 @@ $(function() {
     $("#ac_search").on('keyup',function() {
         var data = { "ac_search": $("#ac_search").val()};
         $.ajax({
-            url: "/autocomplete",
+            url: "/inputcheck",
             data: data,
             type: "GET",
             dataType: "JSON",
